@@ -143,6 +143,8 @@ if (isset($_POST['submit'])){
             <input type="file" name="plan_doc"><br>
             <label>BOQ Document </label>
             <input type="file" name="boq_doc"><br>
+            <label>BOQ Document2 </label>
+            <input type="file" name="boq_doc"><br>
             <input type="submit" name="submit" value="submit">
             <?php
             if (!(0 === count($validateError))){
